@@ -1,7 +1,7 @@
 body{
     margin: 0em;
     
-    font-family: 'Lato', sans-serif;
+    font-family: 'Oswald';
 }
 
 #menu{
@@ -69,6 +69,32 @@ body{
     background-image: url(../img/csm.jpg);
 }
 
+.box1-conteudo{
+
+    
+    text-align: center;
+    
+}
+
+h2{
+    
+    display: inline;
+    font-size: 24px;
+    border-bottom: #3C4C7C 1px solid;
+
+}
+
+h3{
+    padding-bottom: 30px;
+    margin-top: -1px;
+
+}
+
+hr{
+    
+    width: 30%;
+    border-color: #3c4c7c;
+}
 
 
 
