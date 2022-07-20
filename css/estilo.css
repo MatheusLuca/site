@@ -1,87 +1,83 @@
 body{
     margin: 0em;
-    
     font-family: 'Oswald';
 }
 
+/*
 #menu{
-    background: #3C4C7C;
+    
     width: 100%;
-    height: 80px;
-    position: relative;
-    background-attachment: fixed;
+    height: 60px;
+    background-image: linear-gradient(to right, #000000, yellow);
+    z-index: 1;
+    position: fixed;
+    
     
 }
-
+*/
 #menu ul{      
     list-style: none; 
     position: absolute;
     margin-left: 60%;
-    margin-top: 30px;          
+    margin-top: 20px;          
 }
 
 #menu li{
     display: inline;    
-    margin-left: 30px;
-    
-         
+    margin-left: 30px;            
 }
 
 #menu a{
-
     color: #FFFBFB;
     text-decoration: none;
     font-family:'Lato', sans-serif;
     font-weight: bold;
-    font-size: 20px;
-    
+    font-size: 20px;    
 }
 
 #menu a:hover{
-
     background-color: #FFFBFB;
     color: #3C4C7C;
     font-family:'Lato', sans-serif;
-    border: 2px solid white;;
-    border-radius: 2px; 
-    
+    border: 2px solid white;
+    border-radius: 2px;    
 }
 
 .box1, .box2, .box3{
-
+    
     height: 100%;
     opacity: 0.9;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-
 }
 
 .paralax{
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
 }
 
 .box1{
-
+    margin-top: 40px;
     background-image: url(../img/csm.jpg);
 }
+.box2{
+    background-image: url(../img/eva.jpg);
 
-.box1-conteudo{
-
-    
+}
+.box1-conteudo, .box2-conteudo{   
     text-align: center;
-    
+    display: block;
+
 }
 
-h2{
-    
+h2{  
     display: inline;
     font-size: 24px;
     border-bottom: #3C4C7C 1px solid;
-
+    line-height: 60px;
 }
 
 h3{
@@ -90,8 +86,8 @@ h3{
 
 }
 
-hr{
-    
+.linha{
+    margin-top: -34px;
     width: 30%;
     border-color: #3c4c7c;
 }
