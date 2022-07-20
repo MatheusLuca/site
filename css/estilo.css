@@ -3,18 +3,19 @@ body{
     font-family: 'Oswald';
 }
 
-/*
+
 #menu{
     
     width: 100%;
     height: 60px;
-    background-image: linear-gradient(to right, #000000, yellow);
+    background-image: linear-gradient(to right, #000000, #c0c0c0);
     z-index: 1;
+    margin-top: 0px;
     position: fixed;
-    
-    
+    font-family: 'Bebas Neue', cursive; 
+   
 }
-*/
+
 #menu ul{      
     list-style: none; 
     position: absolute;
@@ -37,13 +38,13 @@ body{
 
 #menu a:hover{
     background-color: #FFFBFB;
-    color: #3C4C7C;
+    color: black;
     font-family:'Lato', sans-serif;
     border: 2px solid white;
     border-radius: 2px;    
 }
-
-.box1, .box2, .box3{
+/*Paralax*/
+.box1, .box2, .box3, .box4{
     
     height: 100%;
     opacity: 0.9;
@@ -53,21 +54,30 @@ body{
     background-attachment: fixed;
 }
 
-.paralax{
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-}
 
+/* Inclusão das imagens*/
 .box1{
-    margin-top: 40px;
+    
     background-image: url(../img/csm.jpg);
 }
 .box2{
     background-image: url(../img/eva.jpg);
 
 }
-.box1-conteudo, .box2-conteudo{   
+
+.box3{
+
+    background-image: url(../img/helsing.jpg);
+
+}
+
+.box4{
+
+    background-image: url(../img/berserk.jpg);
+}
+
+/*Alinhar e configuração texto*/
+.box1-conteudo, .box2-conteudo, .box3-conteudo, .box4-conteudo{   
     text-align: center;
     display: block;
 
@@ -78,12 +88,13 @@ h2{
     font-size: 24px;
     border-bottom: #3C4C7C 1px solid;
     line-height: 60px;
+    
 }
 
 h3{
     padding-bottom: 30px;
     margin-top: -1px;
-
+    font-family: 'Bebas Neue', cursive;
 }
 
 .linha{
@@ -93,7 +104,11 @@ h3{
 }
 
 
-
-
-
+.paralax{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    margin-top: 60px;
+    
+}
 
