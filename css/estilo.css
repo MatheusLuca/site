@@ -43,6 +43,8 @@ body{
     border: 2px solid white;
     border-radius: 2px;    
 }
+
+
 /*Paralax*/
 .box1, .box2, .box3, .box4{
     
@@ -54,6 +56,10 @@ body{
     background-attachment: fixed;
 }
 
+.box1-conteudo, .box2-conteudo, .box3-conteudo, .box4-conteudo{   
+    text-align: center;
+    display: block;
+}
 
 /* Inclusão das imagens*/
 .box1{
@@ -76,33 +82,11 @@ body{
     background-image: url(../img/berserk.jpg);
 }
 
-/*Alinhar e configuração texto*/
-.box1-conteudo, .box2-conteudo, .box3-conteudo, .box4-conteudo{   
-    text-align: center;
-    display: block;
-
-}
-
-h2{  
-    display: inline;
-    font-size: 24px;
-    border-bottom: #3C4C7C 1px solid;
-    line-height: 60px;
-    
-}
-
-h3{
-    padding-bottom: 30px;
-    margin-top: -1px;
-    font-family: 'Bebas Neue', cursive;
-}
-
 .linha{
     margin-top: -34px;
     width: 30%;
     border-color: #3c4c7c;
 }
-
 
 .paralax{
     height: 100vh;
@@ -112,3 +96,46 @@ h3{
     
 }
 
+h2{
+
+    display: inline;
+    font-size: 24px;
+    border-bottom: #3C4C7C 1px solid;
+    line-height: 60px;
+}
+
+h3{
+    
+    padding-bottom: 30px;
+    margin-top: -1px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+/**************CSS PAGINA PERSONAGENS****************/
+#div-lateral ul{
+    
+    width:  auto;
+    height: auto;
+    margin: 61px;
+    float: left;
+    margin-left: 0px;
+    padding: 0px 0px;
+    list-style: none;   
+}
+
+#div-lateral li.anime{
+
+    border: 2px solid black;
+    text-align: left;
+    
+         
+}
+
+#div-lateral li.anime-personagem{
+
+    text-align: center;
+}
+
+#div-lateral a{
+    text-decoration: none;
+}
