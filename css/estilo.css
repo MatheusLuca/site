@@ -114,28 +114,73 @@ h3{
 /**************CSS PAGINA PERSONAGENS****************/
 #div-lateral ul{
     
-    width:  auto;
-    height: auto;
-    margin: 61px;
+    width:  120px;
+    height: 100%;
+    margin-top: 60px;
     float: left;
     margin-left: 0px;
     padding: 0px 0px;
-    list-style: none;   
+    list-style: none;
+    
+            
 }
 
 #div-lateral li.anime{
-
-    border: 2px solid black;
-    text-align: left;
     
-         
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-style: italic;
+    font-size: 22px;    
+    width: 120px;   
 }
 
 #div-lateral li.anime-personagem{
+    
+    font-family: 'Bebas Neue', cursive;
+    font-size: 19px;
+    
+    width:120px;
+    
+}
 
+#div-lateral li:hover{
+
+    background-color: white;
+    border: 2px solid purple;
+    border-radius: 30px;
     text-align: center;
+    
+    
 }
 
-#div-lateral a{
-    text-decoration: none;
+#div-lateral li a{
+    text-decoration: none;  
+       
 }
+
+#conteudo-personagem{
+    height: 1016px;
+    width: 95%;      
+    margin-top: -1032px;
+    margin-left: 129px;
+    
+    position: relative;
+    
+
+}
+
+.csm-texto{
+    width: 700px;
+    height: 1015px; 
+    margin-top: -1020px;
+    margin-left: 895px;
+    
+    position: absolute;
+
+}
+
+.csm-makima{
+
+}
+
+
