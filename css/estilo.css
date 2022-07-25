@@ -6,12 +6,11 @@ body{
 
 #menu{
     
-    width: 100%;
+    width: 1600px;
     height: 60px;
     background-image: linear-gradient(to right, #000000, #c0c0c0);
-    z-index: 1;
     margin-top: 0px;
-    position: fixed;
+    position: relative;
     font-family: 'Bebas Neue', cursive; 
    
 }
@@ -113,16 +112,12 @@ h3{
 
 /**************CSS PAGINA PERSONAGENS****************/
 #div-lateral ul{
-    
-    width:  120px;
-    height: 100%;
-    margin-top: 60px;
-    float: left;
+    margin-top: 0px;
     margin-left: 0px;
     padding: 0px 0px;
     list-style: none;
+    position: absolute;
     
-            
 }
 
 #div-lateral li.anime{
@@ -131,7 +126,8 @@ h3{
     font-family: 'Bebas Neue', cursive;
     font-style: italic;
     font-size: 22px;    
-    width: 120px;   
+    width: 120px;  
+     
 }
 
 #div-lateral li.anime-personagem{
@@ -158,29 +154,97 @@ h3{
        
 }
 
-#conteudo-personagem{
-    height: 1016px;
-    width: 95%;      
-    margin-top: -1032px;
-    margin-left: 129px;
+#conteudo-personagem h2{
     
-    position: relative;
     
-
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+    display: inline;
+    border: none;
 }
 
-.csm-texto{
-    width: 700px;
-    height: 1015px; 
-    margin-top: -1020px;
-    margin-left: 895px;
+#conteudo-personagem h3{
+  
+    font-weight: 400;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 16px;
+    margin-top: -5px;
+    font-style: italic;
+    line-height: 20px;
+}
+
+#conteudo-personagem h4{
+
+    
+    margin-top: -10px;
+    font-style: italic;
+    font-weight: 600;
+    border-bottom: 2px solid #3c4c7c;
+    display: inline;
+}
+
+#conteudo-personagem{
+    
+    width: 1470px;
+    height: 100vmax;
+    position: relative;
+    margin-left: 124px;
+    margin-top: 0px;
+    text-align: center;  
+}
+
+.divisao-personagem{
+    width: 75%;
+    margin-top: 100px;
+    margin-left: 130px;
+}
+
+.box-conteudo-makima{
     
     position: absolute;
-
+    margin-left: 760px;
+    top: 0px;
+    height: 59%;   
+    width: 650px;
+    display: block;     
 }
 
-.csm-makima{
+.box-csm-makima{
 
+    width: 50%;
+    height: 52%;
+    background-image: url(../img/makima.png);
+    /*background-position-x: 50% ;
+    background-position-y: 10% ;*/
+    background-attachment: fixed;
+    background-repeat: no-repeat;   
 }
+
+.box-conteudo-denji{
+
+    position: absolute;
+    margin-left: 760px;
+    top: 62%;
+    height: 59%;   
+    width: 650px;
+    display: block;
+}
+
+.box-csm-denji{
+
+    margin-top: 157px;
+    width: 50%;
+    height: 52%;
+    background-image: url(../img/denji.png);
+    /*background-position-x: 30% 
+    /*background-position-y: 10% ;*/
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+    
+}
+
+
+
 
 
