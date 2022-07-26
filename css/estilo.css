@@ -239,11 +239,32 @@ h3{
     /*background-position-x: 30% 
     /*background-position-y: 10% ;*/
     background-attachment: fixed;
-    background-repeat: no-repeat;
-    
-    
+    background-repeat: no-repeat;    
 }
 
+.box-conteudo-himeno{
+
+    position: absolute;
+    margin-left: 760px;
+    top: 62%;
+    height: 59%;   
+    width: 650px;
+    display: block;
+    margin-top: 1306px;
+}
+
+.box-csm-himeno{
+
+    margin-top: 157px;
+    width: 50%;
+    height: 52%;
+    background-image: url(../img/himeno.png);
+    /*background-position-x: 30% 
+    /*background-position-y: 10% ;*/
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+}
 
 
 
