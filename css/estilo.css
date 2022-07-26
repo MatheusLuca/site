@@ -238,9 +238,7 @@ h3{
     background-image: url(../img/denji.png);
     background-position: 14%;
     background-attachment: fixed;
-    background-repeat: no-repeat;    
-    border: 2px solid red;
-    
+    background-repeat: no-repeat;        
 }
 
 .box-conteudo-himeno{
@@ -251,7 +249,8 @@ h3{
     height: 59%;   
     width: 650px;
     display: block;
-    margin-top: 1306px;
+    margin-top: 1170px;
+    
 }
 
 .box-csm-himeno{
@@ -274,8 +273,7 @@ h3{
     height: 59%;   
     width: 650px;
     display: block;
-    margin-top: 1900px;
-    border: 2px solid red;
+    margin-top: 2244px;
 }
 
 .box-csm-power{
@@ -283,12 +281,105 @@ h3{
     margin-top: 157px;
     width: 50%;
     height: 52%;
-    background-image: url(../img/himeno.png);  
+    background-image: url(../img/power.jpg);  
     /*background-position-y: 10% ;*/
     background-attachment: fixed;
     background-repeat: no-repeat; 
     background-position: left;
 }
 
+.box-conteudo-aki{
 
+    position: absolute;
+    margin-left: 760px;
+    top: 62%;
+    height: 59%;   
+    width: 650px;
+    display: block;
+    margin-top: 3300px;
+    
+}
+
+.box-csm-aki{
+
+    margin-top: 157px;
+    width: 50%;
+    height: 52%;
+    background-image: url(../img/aki.jpg);  
+    /*background-position-y: 10% ;*/
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    background-position: left 50px;
+}
+
+.box-conteudo-pochita{
+
+    position: absolute;
+    margin-left: 760px;
+    top: 62%;
+    height: 59%;   
+    width: 650px;
+    display: block;
+    margin-top: 4300px;
+    
+}
+
+.box-csm-pochita{
+
+    margin-top: 157px;
+    width: 50%;
+    height: 52%;
+    background-image: url(../img/pochita.jpg);  
+    background-position-x: 20% ;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+}
+
+.box-conteudo-kishibe{
+
+    position: absolute;
+    margin-left: 760px;
+    top: 62%;
+    height: 59%;   
+    width: 650px;
+    display: block;
+    margin-top: 5500px;
+    border: 2px solid blueviolet;
+    
+}
+
+.box-csm-kishibe{
+
+    margin-top: 157px;
+    width: 50%;
+    height: 52%;
+    background-image: url(../img/);  
+    background-position-x: 20% ;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+}
+
+.box-conteudo-quanxi{
+
+    position: absolute;
+    margin-left: 760px;
+    top: 62%;
+    height: 59%;   
+    width: 650px;
+    display: block;
+    margin-top: 6500px;
+    border: 2px solid black;
+    
+}
+
+.box-csm-quanxi{
+
+    margin-top: 157px;
+    width: 50%;
+    height: 52%;
+    background-image: url(../img/);  
+    background-position-x: 20% ;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+}
 
