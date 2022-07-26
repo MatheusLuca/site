@@ -1,3 +1,4 @@
+
 body{
     margin: 0em;
     font-family: 'Oswald';
@@ -115,9 +116,14 @@ h3{
     margin-top: 0px;
     margin-left: 0px;
     padding: 0px 0px;
-    list-style: none;
-    position: absolute;
-    
+    list-style: none;   
+}
+#div-lateral{
+
+    overflow-y: auto;
+    position: fixed;
+    height: 100vh;
+    padding-bottom: 20px;
 }
 
 #div-lateral li.anime{
@@ -224,10 +230,12 @@ h3{
     
     position: absolute;
     margin-left: 760px;
-    top: 62%;
+    top: 1240px;
     height: 59%;   
     width: 650px;
     display: block;
+    
+
 }
 
 .box-csm-denji{
@@ -238,7 +246,8 @@ h3{
     background-image: url(../img/denji.png);
     background-position: 14%;
     background-attachment: fixed;
-    background-repeat: no-repeat;        
+    background-repeat: no-repeat;
+         
 }
 
 .box-conteudo-himeno{
@@ -249,7 +258,7 @@ h3{
     height: 59%;   
     width: 650px;
     display: block;
-    margin-top: 1170px;
+    margin-top: 1310px;
     
 }
 
@@ -263,17 +272,19 @@ h3{
     background-attachment: fixed;
     background-repeat: no-repeat; 
     background-position: left;
+    
 }
 
 .box-conteudo-power{
 
     position: absolute;
     margin-left: 760px;
-    top: 62%;
+    top: 1270px;
     height: 59%;   
     width: 650px;
     display: block;
-    margin-top: 2244px;
+    margin-top: 2444px;
+    
 }
 
 .box-csm-power{
@@ -286,6 +297,7 @@ h3{
     background-attachment: fixed;
     background-repeat: no-repeat; 
     background-position: left;
+    
 }
 
 .box-conteudo-aki{
@@ -296,7 +308,8 @@ h3{
     height: 59%;   
     width: 650px;
     display: block;
-    margin-top: 3300px;
+    margin-top: 3790px;
+    
     
 }
 
@@ -310,6 +323,7 @@ h3{
     background-attachment: fixed;
     background-repeat: no-repeat; 
     background-position: left 50px;
+    
 }
 
 .box-conteudo-pochita{
@@ -320,7 +334,9 @@ h3{
     height: 59%;   
     width: 650px;
     display: block;
-    margin-top: 4300px;
+    margin-top: 5000px;
+    
+   
     
 }
 
@@ -331,8 +347,10 @@ h3{
     height: 52%;
     background-image: url(../img/pochita.jpg);  
     background-position-x: 20% ;
+    background-position-y: 30% ;
     background-attachment: fixed;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
+    
 }
 
 .box-conteudo-kishibe{
@@ -343,8 +361,8 @@ h3{
     height: 59%;   
     width: 650px;
     display: block;
-    margin-top: 5500px;
-    border: 2px solid blueviolet;
+    margin-top: 6250px;
+    
     
 }
 
@@ -353,10 +371,11 @@ h3{
     margin-top: 157px;
     width: 50%;
     height: 52%;
-    background-image: url(../img/);  
+    background-image: url(../img/kishibe.jpg);  
     background-position-x: 20% ;
     background-attachment: fixed;
     background-repeat: no-repeat; 
+    
 }
 
 .box-conteudo-quanxi{
@@ -367,8 +386,8 @@ h3{
     height: 59%;   
     width: 650px;
     display: block;
-    margin-top: 6500px;
-    border: 2px solid black;
+    margin-top: 7500px;
+    
     
 }
 
@@ -377,9 +396,10 @@ h3{
     margin-top: 157px;
     width: 50%;
     height: 52%;
-    background-image: url(../img/);  
+    background-image: url(../img/quanxi.png);  
     background-position-x: 20% ;
     background-attachment: fixed;
     background-repeat: no-repeat; 
+    
 }
 
