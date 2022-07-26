@@ -221,7 +221,7 @@ h3{
 }
 
 .box-conteudo-denji{
-
+    
     position: absolute;
     margin-left: 760px;
     top: 62%;
@@ -239,12 +239,31 @@ h3{
     /*background-position-x: 30% 
     /*background-position-y: 10% ;*/
     background-attachment: fixed;
-    background-repeat: no-repeat;
-    
-    
+    background-repeat: no-repeat;   
+}
+
+.box-csm-himeno{
+
+    margin-top: 157px;
+    width: 50%;
+    height: 52%;
+    background-image: url(../img/makima.png);
+    /*background-position-x: 30% 
+    /*background-position-y: 10% ;*/
+    background-attachment: fixed;
+    background-repeat: no-repeat;   
+    border: 2px solid red;
 }
 
 
-
+.box-conteudo-himeno{
+    
+    position: absolute;
+    margin-left: 760px;
+    top: 62%;
+    height: 59%;   
+    width: 650px;
+    display: block;
+}
 
 
