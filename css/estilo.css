@@ -6,7 +6,7 @@ body{
 
 #menu{
     
-    width: 1600px;
+    width: 1900px;
     height: 60px;
     background-image: linear-gradient(to right, #000000, #c0c0c0);
     margin-top: 0px;
@@ -91,7 +91,7 @@ body{
     height: 100vh;
     width: 100vw;
     position: absolute;
-    margin-top: 60px;
+    margin-top: 0px;
     
 }
 
@@ -236,10 +236,11 @@ h3{
     width: 50%;
     height: 52%;
     background-image: url(../img/denji.png);
-    /*background-position-x: 30% 
-    /*background-position-y: 10% ;*/
+    background-position: 14%;
     background-attachment: fixed;
     background-repeat: no-repeat;    
+    border: 2px solid red;
+    
 }
 
 .box-conteudo-himeno{
@@ -258,22 +259,36 @@ h3{
     margin-top: 157px;
     width: 50%;
     height: 52%;
-    background-image: url(../img/himeno.png);
-    /*background-position-x: 30% 
+    background-image: url(../img/himeno.png);  
     /*background-position-y: 10% ;*/
     background-attachment: fixed;
-    background-repeat: no-repeat;
-    border: 2px solid black;
+    background-repeat: no-repeat; 
+    background-position: left;
 }
 
+.box-conteudo-power{
 
-.box-conteudo-himeno{
-    
     position: absolute;
     margin-left: 760px;
     top: 62%;
     height: 59%;   
     width: 650px;
     display: block;
+    margin-top: 1900px;
+    border: 2px solid red;
 }
+
+.box-csm-power{
+
+    margin-top: 157px;
+    width: 50%;
+    height: 52%;
+    background-image: url(../img/himeno.png);  
+    /*background-position-y: 10% ;*/
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    background-position: left;
+}
+
+
 
